@@ -1,0 +1,700 @@
+html{
+    scroll-behavior: auto;
+    background-color: rgb(242, 247, 248);
+}
+.girl{
+display: flex;
+}
+*, ::after, ::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.head{
+  background-color: rgb(242,247,248);
+  width: fit-content;
+  height: fit-content;
+    text-align: left;
+    padding: 18px 32px;
+    position: fixed;
+    width: 100%;
+    transition: all .2s ease-in-out;
+    display: block; 
+}
+.link{
+  color: rgb(61,79,96);
+  text-decoration: none;
+  padding:5px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight:bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.but{
+  padding: 17px 25px;
+  border-radius: 10px;
+  color: rgb(17,32,46);
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 220px;
+}
+.create{
+  padding: 17px 25px;
+  border-radius: 10px;
+  background-color: rgb(17,32,46);
+  color: aliceblue;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+h1 pre{
+  color: black;
+  font-size: 20px; 
+  visibility: inherit;
+  font-weight: lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Better{
+  color: rgb(3, 2, 51);
+  font-size: 60px;
+  margin-left: 50px;
+  margin-top: 150px ;
+}
+.font{
+  margin-top: 100px;
+}
+.iphone{
+  background-color: rgb(18,34,49);
+  color: white;
+  padding: 17px 25px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 45px;
+  }
+  .phone1{
+    cursor: pointer;
+    position: relative;
+    visibility: inherit;
+    transition: all .3s ease;
+    margin: unset;
+    overflow: hidden;
+    width: 565px;
+    height: 450px;
+    margin-bottom: 0;
+    margin-top: -300px;
+    margin-right: 70px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 00 1px 0 #ced3da;
+    background-color: #fff;
+    float: right;
+
+  }
+  .phone1:hover{
+    background-color:#0f60d6 ;
+  }
+  .phone1:hover h5{
+    color: #fff;
+  }
+  .pig{
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .pig:hover{
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .auto{
+    color: rgb(0, 51, 153);
+    max-width: unset;
+    margin-top: 25px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .auto:hover{
+    color: #fff;
+    transition:color .3s ease;
+  }
+  .text{
+    margin: 18px 0 40px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 290px;
+    min-height: 80px;
+    color: #3d4f60;
+  }
+  .phone1:hover .text{
+    color: #fff;
+  }
+  .phone1 img{
+    width: 1000px;
+    position: absolute;
+    visibility: hidden;
+    transition: all .5s ease;
+    bottom: 0;
+    right: -100px;
+    /* overflow-clip-margin: content-box;
+    overflow-x:  ;
+    overflow-y: ; */
+  }
+  .phone1:hover img{
+    width: 250px;
+    visibility: visible;
+    bottom: 0;
+    right: 20px;
+  }
+  #ggy{
+    color:rgb(0, 51, 153);
+    margin-top: 200px;
+    margin-left: 40px;
+    font-weight: 500; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  .phone1:hover #ggy{
+    color: #fff;
+  }
+  
+  .phone2{
+    cursor: pointer;
+    position: relative;
+    visibility: inherit;
+    transition: all .3s ease;
+    overflow: hidden;
+    width: 565px;
+    height: 450px;
+    margin-top: 180px;
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 00 1px 0 #ced3da;
+    background-color: #fff;
+  }
+  .phone2:hover{
+    background-color: #2295f2;
+  }
+  .auto1{
+    color: #2295f2;
+    max-width: unset;
+    margin-top: 25px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .phone2:hover h5{
+    color: #fff;
+  }
+  .text1{
+    margin: 18px 0 40px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 290px;
+    min-height: 80px;
+    color: #3d4f60;
+  }
+  .phone2:hover .text1{
+    color: #fff;
+  }
+  .phone2 img{
+    width: 1000px;
+    position: absolute;
+    visibility: hidden;
+    transition: all .5s ease;
+    bottom: 0;
+    right: -100px;
+  }
+  .phone2:hover img{
+    width: 250px;
+    visibility: visible;
+    bottom: 0;
+    right: 20px;
+  }
+  .ggy1{
+    color:#2295f2;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-weight: 500; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  .phone2:hover .ggy1{
+    color: #fff;
+  }
+  .phone3{
+    cursor: pointer;
+    position: relative;
+    visibility: inherit;
+    transition: all .3s ease;
+    margin: unset;
+    overflow: hidden;
+    width: 565px;
+    height: 450px;
+    margin-bottom: 0;
+    margin-top: -453px;
+    margin-right: 70px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 00 1px 0 #ced3da;
+    background-color: #fff;
+    float: right;
+  }
+  .phone3:hover{
+    background-color: rgb(6, 155, 64);
+  }
+  .auto2{
+    color: rgb(6, 155, 64);
+    max-width: unset;
+    margin-top: 25px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .phone3:hover h5{
+    color: #fff;
+  }
+  .text2{
+    margin: 18px 0 40px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 290px;
+    min-height: 80px;
+    color: #3d4f60;
+  }
+  .phone3:hover .text2{
+    color: #fff;
+  }
+  .phone3 img{
+    width: 1000px;
+    position: absolute;
+    visibility: hidden;
+    transition: all .5s ease;
+    bottom: 0;
+    right: -100px
+  }
+  .phone3:hover img{
+    width: 250px;
+    visibility: visible;
+    bottom: 0;
+    right: 20px;
+  }
+  .ggy2{
+    color:rgb(6, 155, 64);
+    margin-top: 200px;
+    margin-left: 40px;
+    font-weight: 500; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif 
+  }
+  .phone3:hover .ggy2{
+    color: #fff;
+  }
+  .phone4{
+    cursor: pointer;
+    position: relative;
+    visibility: inherit;
+    transition: all .3s ease;
+    overflow: hidden;
+    width: 565px;
+    height: 450px;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 00 1px 0 #ced3da;
+    background-color: #fff;
+  }
+  .phone4:hover{
+    background-color: #e5489b;
+  }
+  .auto3{
+    color: #e5489b;
+    max-width: unset;
+    margin-top: 25px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .phone4:hover h5{
+    color: #fff;
+  }
+  .text3{
+    margin: 18px 0 40px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 290px;
+    min-height: 80px;
+    color: #3d4f60;
+  }
+  .phone4:hover .text{
+    color: #fff;
+  }
+  .phone4 img{
+    width: 1000px;
+    position: absolute;
+    visibility: hidden;
+    transition: all .5s ease;
+    bottom: 0;
+    right: -100px;
+  }
+  .phone4:hover img{
+    width: 250px;
+    visibility: visible;
+    bottom: 0;
+    right: 20px;
+  }
+  .ggy3{
+    color:#e5489b;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-weight: 500; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  .ggy3:hover{
+    color: #fff;
+  }
+  .phone5{
+    cursor: pointer;
+    position: relative;
+    visibility: inherit;
+    transition: all .3s ease;
+    margin: unset;
+    overflow: hidden;
+    width: 565px;
+    height: 450px;
+    margin-bottom: 0;
+    margin-top: -453px;
+    margin-right: 70px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 00 1px 0 #ced3da;
+    background-color: #fff;
+    float: right;
+  }
+  .phone5:hover{
+    background-color:#0c1825;
+  }
+  .auto4{
+    color: #0c1825;
+    max-width: unset;
+    margin-top: 25px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .phone5:hover h5{
+    color: #fff;
+  }
+  .text4{
+    margin: 18px 0 40px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 290px;
+    min-height: 80px;
+    color: #3d4f60;
+  }
+  .phone5:hover .text4{
+    color:#fff;
+  }
+  .phone5 img{
+    width: 1000px;
+    position: absolute;
+    visibility: hidden;
+    transition: all .5s ease;
+    bottom: 0;
+    right: -100px;
+  }
+  .phone5:hover img{
+    width: 250px;
+    visibility: visible;
+    bottom: 0;
+    right: 20px;
+  }
+  .ggy4{
+    color:#0c1825;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-weight: 500; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif  
+  }
+  .phone5:hover .ggy4{
+    color:#fff;
+  }
+.invest{
+background-color: #fff;
+padding-top: 20px;
+padding-bottom: 90px;
+padding: 10rem 16px;
+margin-top: 100px;
+height: 830px;
+
+}
+.auto5{
+font-size: 45px;
+/* line-height: 54px; */
+color: #122231;
+font-weight: 900;
+text-align: center;
+margin-top: -50px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.text5{
+font-size: 24px;
+line-height: 33px;
+font-weight: 400;
+margin-top: 15px;
+text-align: center;
+}
+.purple{
+height: 500px;
+/* flex-wrap: wrap; */
+justify-content: center;
+display: flex;
+padding: 4px 5px;
+background-color: #7913e5;
+border-radius: 30px;
+width: 1150px;
+max-width: 1250px;
+margin-left: 85px;
+margin-top: 55px;
+/* margin: 4rem 0; */
+/* position: relative; */
+overflow: hidden;
+}
+.meet{
+  font-size: 48px;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 54px;
+  font-weight: 700;
+  color: #122231;
+  margin-top: 150px;
+}
+.every{
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: center;
+}
+iframe{
+  object-fit: cover;
+  width: 800px;
+  border: 10px solid #fff;
+  border-radius: 24px;
+  min-height: 465px;
+  margin-bottom: 2rem;
+  margin-left: 17rem;
+}
+.Join{
+  float: right;
+  margin-top: 300px;
+  margin-right: 250px;
+  font-weight: 700;
+  font-size: 28px;
+  /* line-height: 36px; */
+  color: #122231;
+}
+.get{
+  margin-left: 610px;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 10px 16px;
+  border: 1px solid #ccc9c9;
+  border-radius: 12px;
+  display: inline-block;
+}
+.and{
+  margin-right: 5px;
+  padding: 10px 16px;
+  border: 1px solid #ccc9c9;
+  border-radius: 12px;
+  display: inline-block;
+}
+.feat{
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #122231;
+  text-align: center;
+  margin-top: 500px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.featuerd{
+  display: flex;
+  /* flex-flow:row; */
+/* align-items: center; */
+justify-content: space-between;
+margin-left: 80px;
+margin-right: 80px;
+}
+.pro{
+  -moz-box-ordinal-group:2;
+  order: 1;
+  -mox-box-flex:0;
+  flex: 0 0 50%;
+  margin-left: 400px;
+  margin-top: -125px;
+}
+.pro p{
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 22.08px;
+  color: #122231;
+  font-weight: bold;
+}
+.pro a{
+  color: #3d4f60;
+  /* letter-spacing: -.3em; */
+  display: block;
+  text-align: left;
+  font-weight: 300;
+  transition: color .5s;
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 22.08px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.com{
+  -moz-box-ordinal-group:2;
+  order: 1;
+  -mox-box-flex:0;
+  flex: 0 0 50%;
+  margin-left: 590px;
+  margin-top: -210px;
+}
+.com p{
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 22.08px;
+  color: #122231;
+  font-weight: bold;
+}
+.com a{
+  color: #3d4f60;
+  /* letter-spacing: -.3em; */
+  display: block;
+  text-align: left;
+  font-weight: 300;
+  transition: color .5s;
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 22.08px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.leg{
+  -moz-box-ordinal-group:2;
+  order: 1;
+  -mox-box-flex:0;
+  flex: 0 0 50%;
+  margin-left: 760px;
+  margin-top: -117px;
+}
+.leg p{
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 22.08px;
+  color: #122231;
+  font-weight: bold; 
+}
+.leg a{
+  color: #3d4f60;
+  /* letter-spacing: -.3em; */
+  display: block;
+  text-align: left;
+  font-weight: 300;
+  transition: color .5s;
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 22.08px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.social{
+  margin-right: 64px;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  display: flex;
+  list-style-type: none;
+  margin-top: -120px;
+}
+li{
+  text-align: -webkit-match-parent;
+}
+.face{
+  transition: .5s;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  width: 32.8px;
+  height: 32px;
+}
+.insta{
+  transition: .5s;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  width: 32.8px;
+  height: 32px;
+}
+.twit{
+  transition: .5s;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  width: 32.8px;
+  height: 32px;
+}
+.tik{
+  transition: .5s;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  width: 32.8px;
+  height: 32px;
+}
+.you{
+  transition: .5s;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  width: 32.8px;
+  height: 32px;
+}
+.loc{
+  margin-right: 70px;
+  text-align: right;
+  
+}
+.loc a{
+text-decoration: none;
+line-height: 31px;
+margin-bottom: 10px;
+color: #3d4f60;
+}
+.end{
+  margin: 80px 70px 30px;
+  border-top: 0.2px solid hsla(0,0%,74.1%,.5215686275);
+  padding-top: 40px;
+}
+footer{
+  padding-bottom: 10px;
+  padding: 80px 16px 50px;
+  font-size: 13.82px;
+  background: #fff;
+  text-align: left;
+}
