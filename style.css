@@ -63,6 +63,88 @@ h1 pre{
 .font{
   margin-top: 100px;
 }
+.wom{
+  border-radius: 16px;
+   width:500px;
+    height:100%;
+     margin-left: 175px; 
+     margin-top: 150px; 
+     border-radius: 36px; 
+}
+.header{
+  opacity: 1;
+  width: 210px;
+  height: 100%;
+  margin-left: -150px; 
+  margin-top: 200px;
+  border-radius: 15px;
+}
+.header2{
+  opacity: 1; 
+  width: 210px;
+   height: 100%; 
+   margin-left: -670px; 
+   margin-top: 280px;
+    border-radius: 15px;
+}
+.header3{
+  opacity: 1;
+   width: 210px;
+    height: 100%;
+     margin-left: -200px;
+      margin-top: 480px;
+       border-radius:20px; 
+}
+.header4{
+  opacity: 1; 
+  width: 210px; 
+  height: 100%;
+   margin-left: 250px; 
+   margin-top:430px;
+    border-radius: 15px;
+}
+.header5{
+  opacity: 1;
+   width: 210px;
+    height: 100%; 
+    margin-left: -400px; 
+    margin-top: 600px;
+     border-radius: 20px;
+}
+.sec{
+  margin-left: 150px; 
+  margin-top: -10px; 
+  font-size: 20px; 
+  font-weight: lighter;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right{
+  margin-left: 240px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(18,34,49);
+}
+.ways{
+  font-size: 48px; 
+  line-height: 66px; max-width: 350px;  
+  font-family: Eina 1px bold; 
+  font-weight: 700; 
+  color: #122231; 
+  margin: 285px 170px 0;
+}
+.security{
+  color: rgb(18,34,49);
+  font-size: 30px;
+  font-weight: bold; 
+  margin-left: 152px; 
+  margin-bottom: 30px;
+}
+.earn{
+  margin: 0px 150px 0px;
+   font-size: 24px; 
+   max-width: 350px;
+    line-height: 35px;
+}
 .iphone{
   background-color: rgb(18,34,49);
   color: white;
@@ -705,3 +787,145 @@ footer{
   background: #fff;
   text-align: left;
 }
+.ham{
+  position: absolute;
+  top: -12px;
+  right: -20px;
+  padding: 20px;
+}
+.ham .line {
+  width: 28px;
+  height: 3px;
+  margin: 6px auto;
+  transition: all .2s ease-in-out;
+}
+
+/* @media screen and (max-width: 500px) {
+.head a{
+  float: none;
+  width: 100%;
+}
+} */
+/* @media screen and (max-width: 500px) {
+.leftcolumn, .righcolumn{
+  width: 100%;
+  padding: 0;
+}
+} */
+/* @media only screen and (max-width: 500px) {
+  body {
+    text-align: center;
+  }
+} */
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+
+@media only screen and (max-width:992px) {
+.ham{
+display: block;
+margin-top: 15px;
+} 
+}
+@media only screen and (max-width:992px) {
+  .ham .line {
+    display: block;
+    background: #122231;
+    margin-right: 40px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .link{
+    display: none;
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .create{
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .but{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Better{
+    text-align: center;
+    line-height: 60px;
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .security{
+    margin-left: 115px;
+    margin-top: 170px;
+    font-size: 35px;
+
+  }
+}
+.right{
+  margin-left: 150px;
+}
+@media only screen and (max-width: 992px) {
+  .sec{
+    margin-left:50px;
+    font-size: 20px;
+    line-height: 26px;
+    
+  }
+}
+@media only screen and (max-width: 992px) {
+  .lock{
+    width: 160px;
+    margin-top: 100px;
+    margin-left: 235px;
+
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ways{
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .earn{
+    margin-top: 20px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .phone1{
+   margin-top: 30px;
+   margin-right: 20px;
+
+  }
+}
+@media only screen and (max-width: 992px) {
+  .phone2{
+    
+    margin-right: 00px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .phone3{
+    margin-top: 30px;
+    margin-right: -5px;;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .phone5{
+    margin-top: 30px;
+    margin-right: -5px;;
+  }
+}
+
