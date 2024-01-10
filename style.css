@@ -71,9 +71,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .Better{
 color: rgb(3, 2, 51);
 font-size: 50px;
-/* margin-left: 50px; */
+margin-left: 80px;
 margin-top: 150px ;
-text-align: center;
+
 }
 .font{
 margin-top: 100px;
@@ -84,7 +84,7 @@ margin-right: 300px;
 .wom{
 border-radius: 16px;
  width:520px;
-   margin-left: 320px; 
+   margin-left: 220px; 
    margin-top: 150px; 
    border-radius: 36px; 
 }
@@ -99,7 +99,7 @@ border-radius: 16px;
   position: absolute;
 opacity: 1;
 width: 210px;
-margin-left: 740px;
+margin-left: 680px;
 margin-top:290px;
 border-radius: 15px;
 }
@@ -107,7 +107,7 @@ border-radius: 15px;
   position: absolute;
 opacity: 1;
 width: 210px;
-margin-left: 1150px;
+margin-left: 1100px;
 margin-top: 240px;
 border-radius: 16px;
 }
@@ -115,7 +115,7 @@ border-radius: 16px;
   position: absolute;
 opacity: 1;
 width: 210px;
-margin-left: 700px;
+margin-left: 650px;
 margin-top: 480px;
 border-radius: 15px;
 }
@@ -123,7 +123,7 @@ border-radius: 15px;
   position: absolute;
 opacity: 1;
 width: 210px;
-margin-left: 1180px;
+margin-left: 1130px;
 margin-top: 500px;
 border-radius: 15px;
 }
@@ -131,7 +131,7 @@ border-radius: 15px;
   position: absolute;
 opacity: 1;
 width: 210px;
-margin-left: 945px;
+margin-left: 900px;
 margin-top: 630px;
 border-radius: 15px;
 margin-bottom: 200px;}
@@ -145,12 +145,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .right{
   
 margin-right: -50px;
-margin-left: 350px;
+margin-left: 270px;
 text-decoration: none;
 font-size: 20px;
 color: rgb(18,34,49);
 }
 .ways{
+  width: 300px;
+  height: 200px;
   text-align: center;
 font-size: 55px; 
 line-height: 66px; max-width: 350px;  
@@ -986,39 +988,41 @@ margin-left: 10px;
 }
 
 .earn{
-  margin-top: 20px;
+  margin-top: -100px;
   font-size: 25px;
   margin-bottom: 40px;
 }
 
 .phone1{
  margin-top: 30px;
- 
+ margin-right: 10px;
 }
 
 .phone2{
-  right: 65px;
+  right: 80px;
   top: 30px;
 }
 
 .phone3{
   margin-top: 65px;
-  
+  margin-right: 10px;
 }
 
 .phone4{
-  right: 65px;
+  right: 80px;
   top: 30px;
 }
 
 .phone5{
   margin-top: 65px;
+  margin-right: 10px;
 
 }
 
 .invest{
  margin-top: 620px;
  height: 1000px;
+ width: auto;
 }
 
 .purple{
@@ -1146,6 +1150,9 @@ margin-left: 10px;
   margin-left: -50px;
   margin-right: 80px;
   /* margin-bottom: -300px; */
+}
+footer{
+  width:auto;
 }
 }
           
