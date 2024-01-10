@@ -10,7 +10,7 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-.head{
+header nav {
 background-color: rgb(242,247,248);
 width: fit-content;
 height: fit-content;
@@ -20,23 +20,32 @@ height: fit-content;
   width: 100%;
   transition: all .2s ease-in-out;
   display: block; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.link{
-color: rgb(61,79,96);
-text-decoration: none;
-padding:5px;
-margin-left: 10px;
-font-size: 20px;
-font-weight:bold;
-font-family: 'Courier New', Courier, monospace;
+header nav ul{
+  display: flex;
+  gap: 20px;
 }
+ul{
+  list-style-type: none;
+}
+header nav ul li a {
+  color: rgb(61,79,96);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight:bold;
+ padding-left:-20px ;
+  }
 .but{
 padding: 17px 25px;
 border-radius: 10px;
 color: rgb(17,32,46);
 font-size: 17px;
 font-weight: bold;
-margin-left: 220px;
+margin-left: 180px;
 }
 .create{
 padding: 17px 25px;
@@ -45,7 +54,10 @@ background-color: rgb(17,32,46);
 color: aliceblue;
 font-size: 17px;
 font-weight: bold;
-margin-left: 5px;
+margin-right: 60px;
+}
+header nav .dropdown{
+  display: none;
 }
 h1 pre{
 color: black;
@@ -653,14 +665,26 @@ padding: 10px 16px;
 border: 1px solid #ccc9c9;
 border-radius: 12px;
 display: inline-block;
+font-size:12.82px;
+transition: all .3s ease-in-out; 
+text-decoration: none;
+cursor: pointer;
+font-weight: 600;
+color: #122231;
 }
 .and{
 margin-left: 750px;
-margin-top: -50px;
+margin-top: -30px;
 padding: 10px 16px;
 border: 1px solid #ccc9c9;
 border-radius: 12px;
 display: inline-block;
+font-size:12.82px;
+transition: all .3s ease-in-out; 
+text-decoration: none;
+cursor: pointer; 
+font-weight: 600; 
+color: #122231;
 }
 .feat{
 font-size: 28px;
@@ -670,13 +694,14 @@ color: #122231;
 text-align: center;
 margin-top: 500px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 20px;
 }
 .featuerd{
 display: flex;
 /* flex-flow:row; */
 /* align-items: center; */
 justify-content: space-between;
-margin-left: 80px;
+margin-left:140px;
 margin-right: 80px;
 }
 .pro{
@@ -838,74 +863,58 @@ font-size: 13.82px;
 background: #fff;
 text-align: left;
 }
-.ham{
+header nav .dropdown {
 position: absolute;
 top: -12px;
 right: -20px;
 padding: 20px;
 }
-.ham .line {
-width: 28px;
-height: 3px;
-margin: 6px auto;
-transition: all .2s ease-in-out;
+header nav .dropdown .line {
+  width: 28px;
+  height: 3px;
+  margin: 6px auto;
+  transition: all .2s ease-in-out;
 }
 
-/* @media screen and (max-width: 500px) {
-.head a{
-float: none;
-width: 100%;
+@media only screen and (max-width:768px) {
+ header nav ul {
+  display: none;
+ }
+ header nav button {
+  display: none;
+ }
+header nav .dropdown {
+  
+  display: block;
+  margin-top: 15px;
 }
-} */
-/* @media screen and (max-width: 500px) {
-.leftcolumn, .righcolumn{
-width: 100%;
-padding: 0;
-}
-} */
-/* @media only screen and (max-width: 500px) {
-body {
-  text-align: center;
-}
-} */
 
-/* @media only screen and (max-width: 600px) {
-body {
-  background-color: lightblue;
-}
-} */
-
-@media only screen and (max-width:992px) {
-.ham{
-display: block;
-margin-top: 15px;
-} 
-}
-@media only screen and (max-width:992px) {
-.ham .line {
+header nav .dropdown .line {
   display: block;
   background: #122231;
   margin-right: 40px;
 }
-}
-@media only screen and (max-width: 992px) {
-.link{
-  display: none;
+
+header nav .dropdown ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  transition: 0.5 cubic-bezier(0.175, 0.885, 0.32, 1.275);
   opacity: 0;
+  margin-top: -400px;
 }
+
+header nav .dropdown .line ul {
+  opacity: 1;
 }
-@media only screen and (max-width: 992px) {
 .create{
   display: none;
 }
-}
-@media only screen and (max-width: 992px) {
+
 .but{
   display: none;
 }
-}
 
-@media only screen and (max-width: 992px) {
 .Better{
   margin-left: 80px;
   margin-top: 130px;
@@ -913,165 +922,128 @@ margin-top: 15px;
   font-size: 60px;
   line-height: 55px;
 }
-}
-@media only screen and (max-width: 992px) {
-  .Better pre{
+
+.Better pre{
     font-size: 20px;
     line-height: 30px;
   }
+  
+  .iphone{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: -4px;
   }
-  @media only screen and (max-width: 992px) {
-    .iphone{
-      margin-top: 30px;
-      margin-right: 10px;
-      margin-left: -4px;
-    }
-    }
-    @media only screen and (max-width: 992px) {
-      .all{
-      margin-top: 500px;
-      margin-left: -870px;
-      }
-      }
-      @media only screen and (max-width: 992px) {
-        .headers{
-         margin-top: 500px;
-         margin-left: -670px;
-        }
-        }
-@media only screen and (max-width: 992px) {
-.security{
-  margin-left: 115px;
-  margin-top: 170px;
-  font-size: 35px;
+    
+  .all{
+    margin-top: 500px;
+    margin-left: -870px;
+  }
 
-}
+  .headers{
+    margin-top: 500px;
+    margin-left: -670px;
+  }
+        
+  .security{
+   margin-left: 115px;
+   margin-top: 170px;
+   font-size: 35px;
+
 }
 .right{
 margin-left: 10px;
 }
-@media only screen and (max-width: 992px) {
 .sec{
   margin-left:50px;
   font-size: 20px;
   line-height: 26px;
-  
 }
-}
-@media only screen and (max-width: 992px) {
+
 .lock{
   width: 160px;
   margin-top: 250px;
   margin-left: 235px;
   margin-bottom:-150px;
+}
 
-}
-}
-@media only screen and (max-width: 992px) {
 .ways{
   font-size: 40px;
   line-height: 40px;
-  
 }
-}
-@media only screen and (max-width: 992px) {
+
 .earn{
   margin-top: 20px;
   font-size: 25px;
   margin-bottom: 40px;
 }
-}
 
-@media only screen and (max-width: 992px) {
 .phone1{
  margin-top: 30px;
  margin-right: 32px;
+}
 
-}
-}
-@media only screen and (max-width: 992px) {
 .phone2{
   right: 55px;
   top: 30px;
 }
-}
-@media only screen and (max-width: 992px) {
+
 .phone3{
   margin-top: 65px;
   margin-right: 32px;;
 }
-}
-@media only screen and (max-width: 992px) {
+
 .phone4{
   right: 55px;
   top: 30px;
 }
-}
 
-@media only screen and (max-width: 992px) {
 .phone5{
   margin-top: 65px;
   margin-right: 32px;
 }
-}
-@media only screen and (max-width: 992px) {
+
 .invest{
  margin-top: 620px;
  height: 1000px;
 }
-}
-@media only screen and (max-width: 992px) {
+
 .purple{
   width: 550px;
   height: 700px;
  margin-left: 20px;
 }
-}
-@media only screen and (max-width: 992px) {
-  .myinv{
-    width: 400px;
-    height: 400px;
-    margin-right: 650px;
-    margin-top: 48px;
+
+.myinv{
+  width: 400px;
+  height: 400px;
+  margin-right: 650px;
+  margin-top: 48px;
     
-  }
-  }
-  @media only screen and (max-width: 992px) {
-    .returns{
-      margin-left: 910px;
-    }
-    }
-    @media only screen and (max-width: 992px) {
-      .money{
-        margin-top: 5px;
-       margin-left: 885px; 
-       font-size: 23px;
+}
+  
+.returns{
+  margin-left: 910px;
+}
+    
+.money{
+  margin-top: 5px;
+  margin-left: 885px; 
+  font-size: 23px;
         
-      }
-      }
-      @media only screen and (max-width: 992px) {
-        .meet{
-         font-size: 45px;
-         margin-left: 10px;
+}
+
+.meet{
+  font-size: 45px;
+  margin-left: 10px;
           
-        }
-        }
-        @media only screen and (max-width: 992px) {
-          .tube{
-            width: 620px;
-            margin-top: 20px;
-           margin-left: 22px; 
-          }
-          }
-          @media only screen and (max-width: 992px) {
-            .bisi{
-              
-            }
-            }
-          @media only screen and (max-width: 992px) {
-            .olabisi{
-              
-            }
-            }
+}
+
+.tube{
+   width: 620px;
+   margin-top: 20px;
+   margin-left: 22px; 
+}
+
+}
           
   
