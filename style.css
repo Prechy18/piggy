@@ -876,7 +876,7 @@ header nav .dropdown .line {
   transition: all .2s ease-in-out;
 }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width:650px) {
  header nav ul {
   display: none;
  }
