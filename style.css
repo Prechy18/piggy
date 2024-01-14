@@ -1010,15 +1010,15 @@ margin-left: 25px;
 }
 
 .phone1{
- margin-top: 30px;
- margin-right: 50px;
- /* margin-left: 50px; */
+  right: 0px;
+  top: 20px;
+  margin-right: -35px;
 }
 
 .phone2{
   right: 0px;
   top: 30px;
-  margin-right: -35px;
+  margin-right: -30px;
 }
 
 .phone3{
@@ -1029,7 +1029,7 @@ margin-left: 25px;
 .phone4{
   right: 0px;
   top: 30px;
-  margin-right: -35px;
+  margin-right: -30px;
 
 }
 
@@ -1048,7 +1048,7 @@ margin-left: 25px;
 .purple{
   width: 550px;
   height: 700px;
- margin-left: 45px;
+ margin-left: 60px;
 }
 
 .myinv{
@@ -1093,7 +1093,7 @@ margin-left: 25px;
 }
 .feat{
   margin-top: 180px;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 .tech{
   width: 90px;
@@ -1163,7 +1163,7 @@ margin-left: 10px;
   margin-right: -180px;
 }
 .join{
-  margin-left: 50px;
+  margin-left: 200px;
   text-align: center;
   width: 750px;
 }
