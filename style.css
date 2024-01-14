@@ -938,17 +938,22 @@ header nav .dropdown .line ul {
   width: 600px;
   font-size: 60px;
   line-height: 55px;
+  text-align: center;
 }
 
 .Better pre{
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
   }
   
   .iphone{
     margin-top: 30px;
     margin-right: 10px;
-    margin-left: -4px;
+    margin-left: 20px;
+  }
+  .wom{
+    margin-left: 250px;
   }
     
   .all{
@@ -960,6 +965,13 @@ header nav .dropdown .line ul {
     margin-top: 500px;
     margin-left: -670px;
   }
+  .header2{
+    margin-left: 210px;
+  }
+  .header3{
+    margin-left: 190px;
+    margin-top: -200px;
+  }
         
   .security{
    margin-left: 115px;
@@ -968,7 +980,8 @@ header nav .dropdown .line ul {
 
 }
 .right{
-margin-left: 10px;
+  margin-top: 10px;
+margin-left: 25px;
 }
 .sec{
   margin-left:50px;
@@ -989,6 +1002,8 @@ margin-left: 10px;
 }
 
 .earn{
+  width: 350px;
+  height: 50px;
   margin-top: -100px;
   font-size: 25px;
   margin-bottom: 40px;
@@ -996,34 +1011,38 @@ margin-left: 10px;
 
 .phone1{
  margin-top: 30px;
- margin-right: 10px;
+ margin-right: -50px;
+ /* margin-left: 50px; */
 }
 
 .phone2{
-  right: 80px;
+  right: 0px;
   top: 30px;
+  margin-right: -35px;
 }
 
 .phone3{
   margin-top: 65px;
-  margin-right: 10px;
+  margin-right: -50px;
 }
 
 .phone4{
-  right: 80px;
+  right: 0px;
   top: 30px;
+  margin-right: -35px;
+
 }
 
 .phone5{
   margin-top: 65px;
-  margin-right: 10px;
+  margin-right: -50px;
 
 }
 
 .invest{
  margin-top: 620px;
  height: 1000px;
- width: auto;
+ width:750px;
 }
 
 .purple{
@@ -1053,8 +1072,12 @@ margin-left: 10px;
 
 .meet{
   font-size: 45px;
-  margin-left: 10px;
+  margin-left: 40px;
+  width: 600px;
           
+}
+.every{
+  width: 600px;
 }
 
 .tube{
@@ -1141,6 +1164,7 @@ margin-left: 10px;
 .join{
   margin-left: 50px;
   text-align: center;
+  width: 650px;
 }
 .get{
  margin-left: -145px;
@@ -1153,7 +1177,7 @@ margin-left: 10px;
   /* margin-bottom: -300px; */
 }
 footer{
-  width:auto;
+  width:750px;
 }
 }
           
