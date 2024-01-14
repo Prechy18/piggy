@@ -1006,13 +1006,12 @@ margin-left: 25px;
   height: 50px;
   margin-top: -10px;
   font-size: 25px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .phone1{
-  right: 0px;
-  top: 20px;
-  margin-right: -35px;
+  margin-top: 65px;
+  margin-right: -900px;
 }
 
 .phone2{
@@ -1093,11 +1092,12 @@ margin-left: 25px;
 }
 .feat{
   margin-top: 180px;
-  margin-left: 200px;
+  margin-left: 30px;
 }
 .tech{
   width: 90px;
   height: 20px;
+  margin-left: 50px;
 }
 .guardian{
   width: 150px;
@@ -1165,7 +1165,6 @@ margin-left: 10px;
 .join{
   margin-left: 200px;
   text-align: center;
-  width: 750px;
 }
 .get{
  margin-left: -145px;
