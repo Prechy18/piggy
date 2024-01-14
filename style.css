@@ -1004,14 +1004,14 @@ margin-left: 25px;
 .earn{
   width: 350px;
   height: 50px;
-  margin-top: -100px;
+  margin-top: -10px;
   font-size: 25px;
   margin-bottom: 40px;
 }
 
 .phone1{
  margin-top: 30px;
- margin-right: -50px;
+ margin-right: 50px;
  /* margin-left: 50px; */
 }
 
@@ -1023,7 +1023,7 @@ margin-left: 25px;
 
 .phone3{
   margin-top: 65px;
-  margin-right: -50px;
+  margin-right: 50px;
 }
 
 .phone4{
@@ -1035,7 +1035,7 @@ margin-left: 25px;
 
 .phone5{
   margin-top: 65px;
-  margin-right: -50px;
+  margin-right: 50px;
 
 }
 
@@ -1048,7 +1048,7 @@ margin-left: 25px;
 .purple{
   width: 550px;
   height: 700px;
- margin-left: 20px;
+ margin-left: 45px;
 }
 
 .myinv{
@@ -1073,26 +1073,27 @@ margin-left: 25px;
 .meet{
   font-size: 45px;
   margin-left: 40px;
-  width: 600px;
+  width: 650px;
           
 }
 .every{
-  width: 600px;
+  width: 650px;
 }
 
 .tube{
    width: 620px;
    margin-top: 20px;
-   margin-left: 22px; 
+   margin-left: 30px; 
 }
 .featuerd{
   width: 100px;
   height: 20px;
-  margin-left: 35px;
+  margin-left: 45px;
   gap: 23px;
 }
 .feat{
   margin-top: 180px;
+  margin-left: 100px;
 }
 .tech{
   width: 90px;
@@ -1164,7 +1165,7 @@ margin-left: 10px;
 .join{
   margin-left: 50px;
   text-align: center;
-  width: 650px;
+  width: 750px;
 }
 .get{
  margin-left: -145px;
